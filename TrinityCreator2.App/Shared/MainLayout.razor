@@ -1,16 +1,19 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="flex bg-background-primary text-slate-400">
+    @*Sidebar*@
+    <aside aria-label="Sidebar" class="
+        lg:w-64 h-screen sticky top-0 
+        bg-background-menu border-r-2 border-border-secondary border-solid">
+        <LeftMenu />
+    </aside>
     
-    <NavMenu />
-    
-    @*Top Menu *@
-    <div class="top-row px-4">            
-        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-    </div>
+    <div class="grow">
 
-    @*Content*@
-    <main>
-        @Body
-    </main>
+        @*Content*@
+        <main class="mt-4 ml-8 mr-8">
+            @Body
+        </main>
+    </div>
+    
 </div>
