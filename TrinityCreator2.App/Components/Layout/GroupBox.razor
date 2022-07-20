@@ -1,0 +1,26 @@
+﻿<div
+	class="flex flex-col 
+		m-2 overflow-hidden
+        rounded-lg border-2
+        divide-y-2
+        divide-slate-600
+        border-slate-600"
+>
+	<div class="pt-1 pl-3 pb-1 bg-slate-700">
+		<span class="text-xl font-semibold">@Title</span>
+	</div>
+	<div>
+		<div class="m-3">
+			@ChildContent
+		</div>
+	</div>
+</div>
+
+
+@code {
+    [Parameter]
+	public string Title { get; set; }
+
+	[Parameter]
+    public RenderFragment ChildContent { get; set; }
+}
