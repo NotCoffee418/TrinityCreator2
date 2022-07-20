@@ -1,6 +1,6 @@
 {
-  "name": "TrinityCreator2",
-  "short_name": "TrinityCreator2",
+  "name": "TrinityCreator2.App",
+  "short_name": "TrinityCreator2.App",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
