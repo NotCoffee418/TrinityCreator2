@@ -4,7 +4,9 @@
 	Trinity Creator 2
 </hgroup>
 
-<nav class="@navMenuClasses lg:w-64 pr-2" aria-label="Sidebar">
+<nav class="@navMenuClasses lg:w-64 pr-2 transition ease-in-out overflow-hidden" 
+    style="transition:width 500ms ease-in-out;" 
+    aria-label="Sidebar">
 	<div class="flex py-4 px-3 rounded bg-background-menu text-link-primary">
 
         @*Left menu items*@
@@ -30,7 +32,7 @@
 @code {
     private bool leftMenuIsExpanded = false;
 
-    private string? navMenuClasses => leftMenuIsExpanded ? "w-64 is-expanded" : "w-16";
+    private string? navMenuClasses => leftMenuIsExpanded ? "w-64 is-expanded" : "w-14";
     private string? expanderButtonClasses => leftMenuIsExpanded ? "arrow-circle-left" : "arrow-circle-right";
 
     private void ToggleNavMenu()
