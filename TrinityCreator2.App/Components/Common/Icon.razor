@@ -1,0 +1,12 @@
+﻿<span class="oi text-[@(IconSize)px]" data-glyph="@Name" title="@Tooltip" aria-hidden="true"></span>
+
+@code {
+    [Parameter]
+    public int IconSize { get; set; } = 16;
+
+    [Parameter]
+    public string Name { get; set; } = "check";
+
+    [Parameter]
+    public string? Tooltip { get; set; } = null;
+}

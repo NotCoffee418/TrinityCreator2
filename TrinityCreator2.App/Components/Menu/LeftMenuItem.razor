@@ -1,0 +1,21 @@
+﻿<li>
+	<a href=@Url
+		class="flex rounded-lg items-center p-2 text-base 
+		font-normal text-link-primary hover:bg-gray-100 dark:hover:bg-gray-700"
+	>
+		<Icon Name=@IconName IconSize="16" />
+		<span class="ml-3 hidden show-on-expanded  lg:inline-block">@Text</span>
+	</a>
+</li>
+
+
+@code {
+	[Parameter]
+	public string Url { get; set; }
+	
+	[Parameter]
+	public string Text { get; set; }
+
+	[Parameter]
+	public string IconName { get; set; }
+}
