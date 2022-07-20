@@ -19,4 +19,4 @@ I have several projects I'm working on, so it very much depends on when I want t
 
 ### Where?
 Trinity Creator 2 will be a [PWA](https://en.wikipedia.org/wiki/Progressive_web_application), meaning it runs in the browser but can also be installed on your computer.
-You can view the current state of the application at [trinitycreator2.pages.dev](https://trinitycreator2.pages.dev). I wouldn't try to use it just yet though!
+You can view the current state of the application at [dev.trinitycreator2.pages.dev](https://dev.trinitycreator2.pages.dev). I wouldn't try to use it just yet though!
